@@ -14,7 +14,7 @@ class AddImageFieldToSeriesTable extends Migration
     public function up()
     {
         Schema::table('series', function (Blueprint $table) {
-            $table->text('image')->nullable();
+            $table->string('image')->nullable();
         });
     }
 

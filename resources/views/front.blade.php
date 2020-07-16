@@ -15,7 +15,7 @@
             <section>
             <div class="col-md-12">
                 <b-card-group deck>
-                @foreach($featured as $series)
+                @foreach($featuredSeries as $series)
                     <b-card title="{{ $series->title }}" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
                     <b-card-text>
                        {{ \Str::words($series->description, 10) }}

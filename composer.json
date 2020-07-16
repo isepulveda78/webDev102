@@ -12,10 +12,10 @@
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
-        "laravel/framework": "^6.0.",
+        "laravel/cashier": "^12.1",
+        "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
-        "miljar/php-exif": "^0.6.5",
-        "tcg/voyager": "^1.4"
+        "miljar/php-exif": "^0.6.5"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
